@@ -11,4 +11,8 @@ public class Pet extends Individual {
     public Pet() {
         super();
     }
+
+    public void speak() {
+        System.out.println(this + " speak");
+    }
 }
