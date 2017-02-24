@@ -10,7 +10,7 @@ import java.util.HashSet;
  */
 public class Main {
     public static void main(String[] args) {
-        String str = "A E I O U Y a e i o u y";
+        String str = "A E I O U Y a e BinaryFile o u y";
         HashMap<String, Integer> hashMap = new HashMap<String, Integer>();
         for (String s : str.split(" ")) {
             hashMap.put(s, 0);

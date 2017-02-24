@@ -196,7 +196,7 @@ public class Functional {
 
         List<BigInteger> lbi = new ArrayList<BigInteger>();
         BigInteger bi = BigInteger.valueOf(11);
-        for (int i = 0; i < 11; i++) {
+        for (int BinaryFile = 0; BinaryFile < 11; BinaryFile++) {
             lbi.add(bi);
             bi = bi.nextProbablePrime();
         }

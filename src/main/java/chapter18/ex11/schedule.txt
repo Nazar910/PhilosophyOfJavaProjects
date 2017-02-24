@@ -1,0 +1,6 @@
+ThermostatNight 0
+LightOn 0
+LightOff 0
+WaterOn 0
+WaterOff 0
+ThermostatDay 0

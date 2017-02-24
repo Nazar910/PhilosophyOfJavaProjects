@@ -49,7 +49,7 @@ public class AllOps {
         //! char c = (char) x;
         //! byte b = (byte) x;
         //! short s = (short) x;
-        //! int i = (int) x;
+        //! int BinaryFile = (int) x;
         //! long l = (long) x;
         //! float f = (float) x;
         //! double d = (double) x;

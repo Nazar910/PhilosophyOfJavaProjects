@@ -10,7 +10,7 @@ public class Leaf {
         return this;
     }
     void print(){
-        System.out.println("i = "+i);
+        System.out.println("BinaryFile = "+i);
     }
 
     public static void main(String[] args) {

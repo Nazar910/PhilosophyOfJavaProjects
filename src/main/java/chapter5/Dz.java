@@ -107,7 +107,7 @@ public class Dz {
 
             @Override
             public String toString() {
-                return "i = "+i+" s = "+s;
+                return "BinaryFile = "+i+" s = "+s;
             }
         }
         A a = new A();
@@ -127,7 +127,7 @@ public class Dz {
                 i=0;
             }
             public void finalize(){
-                if(i!=0) System.out.println("Error: i!=0");
+                if(i!=0) System.out.println("Error: BinaryFile!=0");
                 else
                 System.out.println("Terminating object A");
             }

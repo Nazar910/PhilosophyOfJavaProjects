@@ -12,7 +12,7 @@ public class LabeledWhile {
             System.out.println("Внешний цикл while");
             while(true){
                 i++;
-                System.out.println("i = "+i);
+                System.out.println("BinaryFile = "+i);
                 if(i == 1){
                     System.out.println("continue");
                     continue;

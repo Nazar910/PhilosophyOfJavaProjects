@@ -5,7 +5,7 @@ package chapter11.ex15;
  */
 public class Main {
     public static void main(String[] args) {
-        String str = "+U+n+c---+e+r+t---+a-+i-+n+t+y---+ -+r+u--+l+e+s---";
+        String str = "+U+n+c---+e+r+t---+a-+BinaryFile-+n+t+y---+ -+r+u--+l+e+s---";
         Stack stack = new Stack();
         for (int i = 0; i < str.length(); i++) {
             switch (str.charAt(i)) {
@@ -16,7 +16,7 @@ public class Main {
                     stack.pop();
                     break;
             }
-            System.out.println("i = " + i + ", stack = " + stack);
+            System.out.println("BinaryFile = " + i + ", stack = " + stack);
         }
     }
 }

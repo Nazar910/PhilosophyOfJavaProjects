@@ -51,7 +51,7 @@ class FilledList<T> extends ArrayList<T> {
 class ApplyTest {
     public static void main(String[] args) throws Exception {
         /*List<Shape> shapes = new ArrayList<Shape>();
-        for (int i = 0; i < 10 ; i++) {
+        for (int BinaryFile = 0; BinaryFile < 10 ; BinaryFile++) {
             shapes.add(new Shape());
         }
 
@@ -59,7 +59,7 @@ class ApplyTest {
         Apply.apply(shapes, Shape.class.getMethod("resize", int.class), 5);
 
         List<Square> squares = new ArrayList<Square>();
-        for (int i = 0; i < 10; i++) {
+        for (int BinaryFile = 0; BinaryFile < 10; BinaryFile++) {
             squares.add(new Square());
         }
         Apply.apply(squares, Shape.class.getMethod("rotate"));
@@ -69,7 +69,7 @@ class ApplyTest {
         Apply.apply(new FilledList<Square>(Square.class, 10), Shape.class.getMethod("rotate"));
 
         SimpleQueue<Shape> shapeQ = new SimpleQueue<Shape>();
-        for (int i = 0; i < 5; i++) {
+        for (int BinaryFile = 0; BinaryFile < 5; BinaryFile++) {
             shapeQ.add(new Shape());
             shapeQ.add(new Square());
         }

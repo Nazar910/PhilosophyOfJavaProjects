@@ -29,7 +29,7 @@ public class SprinklerSystem {
                 "valve2 = " + valve2 + " " +
                 "valve3 = " + valve3 + " " +
                 "valve4 = " + valve4 + "\n" +
-                "i = " + i + " " + "f = " + f + " " +
+                "BinaryFile = " + i + " " + "f = " + f + " " +
                 "source = " + source;
     }
 

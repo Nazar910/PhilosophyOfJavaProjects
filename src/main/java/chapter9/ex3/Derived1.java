@@ -8,6 +8,6 @@ public class Derived1 extends Base {
 
     @Override
     void print() {
-        System.out.println("Derived1.i = " + i);
+        System.out.println("Derived1.BinaryFile = " + i);
     }
 }

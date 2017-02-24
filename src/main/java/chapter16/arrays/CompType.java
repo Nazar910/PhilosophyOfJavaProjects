@@ -20,7 +20,7 @@ public class CompType implements Comparable<CompType> {
 
     @Override
     public String toString() {
-        String result = "[i = " + i + ", j = " + j + "]";
+        String result = "[BinaryFile = " + i + ", j = " + j + "]";
         if (count++ % 3 == 0) result += "\n";
         return result;
     }

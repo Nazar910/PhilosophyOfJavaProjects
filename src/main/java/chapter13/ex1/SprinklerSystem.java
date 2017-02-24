@@ -39,7 +39,7 @@ public class SprinklerSystem {
         builder.append("valve4 = ");
         builder.append(valve4);
         builder.append('\n');
-        builder.append("i = ");
+        builder.append("BinaryFile = ");
         builder.append(i);
         builder.append(" ");
         builder.append("f = ");

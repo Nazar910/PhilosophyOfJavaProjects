@@ -90,7 +90,7 @@ public class Dz {
     }
     private static void dz24(){
         for(int n = 1000;n<10000;n++) { //n is probably a vampire number
-            int i=0,j=0;                //i & j are forming vampire number;
+            int i=0,j=0;                //BinaryFile & j are forming vampire number;
             boolean fl = false;         //fl is a state from what we know if we find our vampire number
             out:
             for(i=10;i<100;i++){

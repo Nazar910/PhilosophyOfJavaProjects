@@ -11,7 +11,7 @@ public class LabeledFor {
         for(;true;){    //Infinite loop
             inner:      //Другие команды недопустимы
             for(;i<10;i++){
-                System.out.println("i = "+i);
+                System.out.println("BinaryFile = "+i);
                 if(i == 2){
                     System.out.println("continue");
                     continue;

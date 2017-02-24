@@ -18,7 +18,7 @@ class A {
 
     @Override
     public String toString() {
-        return String.format("i = %d, l = %d\nf = %f, d = %f",i,l,f,d);
+        return String.format("BinaryFile = %d, l = %d\nf = %f, d = %f",i,l,f,d);
     }
 }
 public class Main {

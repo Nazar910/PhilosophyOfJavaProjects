@@ -6,12 +6,12 @@ package chapter1.Operators;
 public class AutoInc {
     public static void main(String[] args) {
         int i=1;
-        System.out.println("i : "+i);
-        System.out.println("++i : "+ ++i);
-        System.out.println("i++ : "+i++);
-        System.out.println("i : "+i);
-        System.out.println("--i : "+ --i);
-        System.out.println("i-- : "+i--);
-        System.out.println("i : "+i);
+        System.out.println("BinaryFile : "+i);
+        System.out.println("++BinaryFile : "+ ++i);
+        System.out.println("BinaryFile++ : "+i++);
+        System.out.println("BinaryFile : "+i);
+        System.out.println("--BinaryFile : "+ --i);
+        System.out.println("BinaryFile-- : "+i--);
+        System.out.println("BinaryFile : "+i);
     }
 }
